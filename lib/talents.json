@@ -1,5 +1,44 @@
 [
   {
+    "id": "t_archmage",
+    "name": "Archmage",
+    "icon": "ARCHMAGE",
+    "terse": "Spell cast gooder",
+    "description": "Archmages stand at the pinnacle of aetheric research. They can manipulate magic in ways that others can only dream of.",
+    "ranks": [
+      {
+        "name": "Spell Sculptor",
+        "description": "When you use a spell or artifact with an area of effect ({Blast}, {Burst}, {Close Blast}, {Line}), you can spend 1 mana to exclude 1 target from the area.",
+        "synergies": [
+          {
+            "locations": "Spells",
+            "boost": ""
+          }
+        ]
+      },
+      {
+        "name": "Arcane Turret",
+        "description": "When you are CHANNELING, your {Armor} increases by +2, to a maximum of 4. Taking {Stress} doesn’t trigger Concentration saves.",
+        "synergies": [
+          {
+            "locations": "Channeling",
+            "boost": ""
+          }
+        ]
+      },
+      {
+        "name": "Focused Caster",
+        "description": "The following option is added to the REROLL TABLE: Spend 1 mana to reroll.",
+        "synergies": [
+            {
+              "locations": "Reroll Table",
+              "boost": ""
+            }
+          ]
+      }
+    ]
+  },
+  {
     "id": "t_ace",
     "name": "Ace",
     "icon": "ACE",
